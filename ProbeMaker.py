@@ -78,4 +78,4 @@ if __name__ == "__main__":
     desired_probes = get_probes(input_sequence, input_length, input_overlap)
     
     for pos, seq in enumerate(desired_probes):
-        print(f"Position {pos+1}: {seq}")
+        print(f"Probe {pos+1}: {seq}")
