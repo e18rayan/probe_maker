@@ -69,7 +69,7 @@ def get_probes(sequence, len_probes, overlap) -> list:
         
     return probe_sequences
   
-  if __name__ == "__main__":
+if __name__ == "__main__":
     #No checks if invalid characters or integers
     input_sequence = input(str("What's the sequence?: ")).strip().upper()
     input_length = int(input("How long are the probes?: ").strip())
